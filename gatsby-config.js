@@ -3,5 +3,8 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "PortFoliov2",
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: [
+    "gatsby-plugin-sass",
+    "gatsby-plugin-react-helmet"
+  ],
 };

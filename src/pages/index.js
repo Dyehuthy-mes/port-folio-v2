@@ -1,8 +1,7 @@
 import * as React from "react"
-import "./index.scss"
-import Page from "../components/Page/Page"
+import Page from "../components/Page"
 
-// markup
+
 const IndexPage = () => {
   return (
     <main>

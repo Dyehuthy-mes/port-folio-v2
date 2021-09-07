@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 800px;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.imageController{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.imageController img{
+    border-radius: 50%;
+}
