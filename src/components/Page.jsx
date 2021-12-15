@@ -1,9 +1,11 @@
-import React from 'react'
+import React  from 'react'
 import Header from './Header'
+import ProjectsSection from './ProjectsSection'
 import Img from 'gatsby-image'
 import {useStaticQuery, graphql} from 'gatsby'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+
 export default Page
 
 function Page({children}) {
@@ -32,6 +34,8 @@ function Page({children}) {
             <p> Hi there !! I'm a frontend developer from Buenos Aires. I am Currently research JS technologies</p> 
             <a href= "https://www.linkedin.com/in/marcos-campot-687152216/" target="blank" > <FontAwesomeIcon icon={faLinkedin} /> </a>
             <a href= "https://github.com/Dyehuthy-mes" target="blank" > <FontAwesomeIcon icon={faGithub} /> </a>
+            <p> Check out some of my projects...</p> 
+            <ProjectsSection/>
             {children}
         </div>
     )
