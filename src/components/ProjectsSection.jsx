@@ -1,9 +1,12 @@
 import React from 'react'
-import {useStaticQuery, graphql} from 'gatsby'
-import Img from 'gatsby-image'
+/* import {useStaticQuery, graphql} from 'gatsby'
+import Img from 'gatsby-image' */
 import "../styles/ProjectSection.scss"
 import Image1 from "../images/weatherAppExample.png"
 import Image2 from "../images/weatherApp.png"
+import Image3 from "../images/bebop1.png"
+import Image4 from "../images/bebop2.png"
+import Image5 from "../images/bebop3.png"
 
 function ProjectsSection() {
 /* 
@@ -27,10 +30,30 @@ function ProjectsSection() {
                 alt="proyectoPreview"
                 className="projectsSectionImgStyle"
             />
+            <hr/>
              <img src ={Image2}
                 alt="proyectoPreview"
                 className="projectsSectionImgStyle"
             />
+            <hr/>
+             <h1> MoviesApp </h1>
+          <p> Sencilla aplicacion para busqueda de peliculas </p>
+           <img src ={Image3}
+                alt="proyectoPreview"
+                className="projectsSectionImgStyle"
+            />
+            /*   el slide-car es draggeable   */
+            <hr/> 
+             <img src ={Image4}
+                alt="proyectoPreview"
+                className="projectsSectionImgStyle"
+            />
+            <hr/>
+             <img src ={Image5}
+                alt="proyectoPreview"
+                className="projectsSectionImgStyle"
+            />
+            <hr/>
         </div>
     )
 }

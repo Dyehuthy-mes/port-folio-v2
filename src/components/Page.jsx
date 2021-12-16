@@ -35,7 +35,8 @@ function Page({children}) {
             <p>Gracias por visitar mi CV y como dice arriba: Bienvenido...</p>
               <p className="textMain">Soy Marcos Campot, estudiante de sistemas, actualmente estoy interesado en desarrollarme profesionalmente en COBOL.
               Mas abajo te dejo algunas capturas de proyectos hechos en React y mis codigos en COBOL.</p>
-        </div> 
+        </div>
+        <hr/> 
             <ProjectsSection/>
             {children}
             <div className='footer'>
