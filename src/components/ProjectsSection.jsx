@@ -7,9 +7,9 @@ function ProjectsSection() {
 
     const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "sadas.png" }) {
+      placeholderImage: file(relativePath: { eq: "weatherAppExample.png" }) {
         childImageSharp {
-          fluid(maxWidth: 400, maxHeight: 400) {
+          fluid(maxWidth: 1600, maxHeight: 400) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -19,9 +19,10 @@ function ProjectsSection() {
 
     return (
         <div className='projectSection'>
-            <p>WeatherApp</p>
-            <p>MovieApp</p>
-            <p>Portfolio alternate version</p>
+           <Img fluid={data.placeholderImage.childImageSharp.fluid}
+                  className="projectsSectionImgStyle"
+                  alt="weatherapp"
+                />
         </div>
     )
 }

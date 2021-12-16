@@ -1,5 +1,12 @@
 .projectSection{
-    background-image: url('../images/laptop.png');
-    background-repeat: no-repeat;
-    background-size:100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    font-family: monospace;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    cursor: default;
 }

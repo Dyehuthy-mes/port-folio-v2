@@ -1,9 +1,11 @@
 .header__title{
     display: flex;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: monospace;
     font-weight: bolder;
     color: black;
     justify-content: center;
     margin-bottom: 2rem;
+    cursor: default;
+    background-color: rgba(207, 207, 207, 0.664)
 }

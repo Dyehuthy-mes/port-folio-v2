@@ -4,7 +4,7 @@ import '../styles/Header.scss'
 function Header() {
     return (
         <div className="header__title">
-            <h1>Marcos Campot</h1>
+            <h1>ברוך הבא</h1> 
         </div>
     )
 }
