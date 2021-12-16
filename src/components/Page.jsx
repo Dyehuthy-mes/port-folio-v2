@@ -34,11 +34,12 @@ function Page({children}) {
               </div>
             <p>Gracias por visitar mi CV y como dice arriba: Bienvenido...</p>
               <p className="textMain">Soy Marcos Campot, estudiante de sistemas, actualmente estoy interesado en desarrollarme profesionalmente en COBOL.
-              Mas abajo te dejo algunas capturas de proyectos hechos en React y mis codigos en COBOL.</p>
+              Mas abajo te dejo algunas capturas de proyectos hechos en React y mis codigos en <a href ="#cobolCodigos">COBOL</a>.</p>
         </div>
         <hr/> 
             <ProjectsSection/>
             {children}
+            {/* <h1 id="cobolCodigos"> COBOL </h1> */}
             <div className='footer'>
             <a href= "https://www.linkedin.com/in/marcos-campot-687152216/" target="blank" > <FontAwesomeIcon icon={faLinkedin} /> </a>
             <a href= "https://github.com/Dyehuthy-mes" target="blank" > <FontAwesomeIcon icon={faGithub} /> </a>
