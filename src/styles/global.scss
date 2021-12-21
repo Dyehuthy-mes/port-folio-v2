@@ -52,16 +52,17 @@ body{
     justify-content: center;
     padding: 10px;
     gap: 20px;
-    background-color: rgba(207, 207, 207, 0.664);
-    margin-top: 4rem;
+    background-color: rgb(192, 192, 192);
+    margin-top: 1rem;
+    max-height: 40px;
 }
 
 .footer__text{
-        justify-items: left;
-        align-items: initial;
-        font-family: monospace;
-        cursor: default;
-        margin-left: 60%;
+    justify-items: left;
+    align-items: initial;
+    font-family: monospace;
+    cursor: default;
+    margin-left: 60%;
 } 
 
 a{
@@ -81,4 +82,10 @@ p{
     word-break:keep-all;
     white-space:normal;
     font-variant-caps: petite-caps;
+}
+
+.inicioBoton{
+    border-radius: 50%;
+    background-color: rgb(167, 167, 167);
+    margin-top: 1rem;
 }

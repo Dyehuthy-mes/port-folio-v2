@@ -1,11 +1,21 @@
 .projectSection{
     justify-content: center;
-    margin: 0 auto;
-    margin-top: 2rem;
     max-width: 800px;
     font-family: monospace;
     font-weight: bold;
     line-height: 1;
     text-align: center;
     cursor: default;
+    background-color: rgb(192, 192, 192);
+    padding-bottom: 25px;
+}
+
+.projectSectionLinks{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+.projectSectionLinks:hover{
+    color: rgb(255, 255, 255);
 }
