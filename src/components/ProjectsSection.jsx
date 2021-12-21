@@ -1,6 +1,4 @@
 import React from 'react'
-/* import {useStaticQuery, graphql} from 'gatsby'
-import Img from 'gatsby-image' */
 import "../styles/ProjectSection.scss"
 import Image1 from "../images/weatherAppExample.png"
 import Image2 from "../images/weatherApp.png"
@@ -11,20 +9,11 @@ import Image6 from "../images/CV1.png"
 import Image7 from "../images/cobol1.png"
 import Image8 from "../images/cobol2.png"
 import Image9 from "../images/cobol3.png"
+import Image10 from "../images/cobol4.png"
+import Image11 from "../images/cobol5.png"
+import Image12 from "../images/cobol6.png"
 
 function ProjectsSection() {
-/* 
-    const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "weatherAppExample.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1600, maxHeight: 400) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `) */
 
     return (
         <div className='projectSection'>
@@ -79,8 +68,25 @@ function ProjectsSection() {
                 className="projectsSectionImgStyle"
             />
             <hr/>
-            <h1> Ejecuccion del programa </h1>
+            <h1> Ejecución del programa </h1>
             <img src ={Image9}
+                alt="proyectoPreview"
+                className="projectsSectionImgStyle"
+            />
+            <hr/>
+            <h1> Programa para crear un archivo de registro </h1>
+            <img src ={Image10}
+                alt="proyectoPreview"
+                className="projectsSectionImgStyle"
+            />
+            <hr/>
+            <img src ={Image11}
+                alt="proyectoPreview"
+                className="projectsSectionImgStyle"
+            />
+            <hr/>
+            <h1> Ejecución del programa </h1>
+            <img src ={Image12}
                 alt="proyectoPreview"
                 className="projectsSectionImgStyle"
             />

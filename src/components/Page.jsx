@@ -39,7 +39,6 @@ function Page({children}) {
         <hr/> 
             <ProjectsSection/>
             {children}
-            {/* <h1 id="cobolCodigos"> COBOL </h1> */}
             <div className='footer'>
             <a href= "https://www.linkedin.com/in/marcos-campot-687152216/" target="blank" > <FontAwesomeIcon icon={faLinkedin} /> </a>
             <a href= "https://github.com/Dyehuthy-mes" target="blank" > <FontAwesomeIcon icon={faGithub} /> </a>
