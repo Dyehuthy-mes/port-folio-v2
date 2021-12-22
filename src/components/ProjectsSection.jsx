@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/ProjectSection.scss"
+import "../styles/ProjectSection.css"
 import Image1 from "../images/weatherAppExample.png"
 import Image2 from "../images/weatherApp.png"
 import Image3 from "../images/bebop1.png"
