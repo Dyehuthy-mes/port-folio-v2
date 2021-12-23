@@ -2,11 +2,15 @@ html{
     box-sizing: border-box;
     --primary-color: rgb(245, 245, 245);
     --secondary-color: rgb(192, 192, 192);
+    --text-color: rgb(0, 0, 0);
+    --change-theme-button: rgb(235, 235, 235);
 }
 
 html[data-theme="dark"] {
     --primary-color: rgb(51, 51, 51);
     --secondary-color: rgb(0, 0, 0);
+    --text-color: rgb(224, 224, 224);
+    --change-theme-button: rgb(238, 230, 125);
   }
 
 *,*:before, *:after{
@@ -33,6 +37,7 @@ body{
     line-height: 1;
     text-align: center;
     cursor: default;
+    color:var(--text-color);
 }
 
 
@@ -71,11 +76,12 @@ body{
     font-family: monospace;
     cursor: default;
     margin-left: 60%;
+    color:  var(--text-color);
 } 
 
 a{
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
 }
 
 a:hover{
@@ -96,4 +102,11 @@ p{
     border-radius: 50%;
     background-color: rgb(167, 167, 167);
     margin-top: 1rem;
+}
+
+.changeTheme{
+    background-color:var(--change-theme-button);
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    cursor:pointer
 }

@@ -23,7 +23,7 @@ function Page({children}) {
       }
     `)
 
-    const [checked, setChecked] = useState(localStorage.getItem("theme") === "dark" ? true : false);
+    const [checked, setOnclick] = useState(localStorage.getItem("theme") === "dark" ? true : false);
 
   useEffect(() => {
     document
@@ -34,10 +34,10 @@ function Page({children}) {
 const toggleThemeChange = () => {
   if (checked === false) {
     localStorage.setItem("theme", "dark");
-    setChecked(true);
+    setOnclick(true);
   } else {
     localStorage.setItem("theme", "light");
-    setChecked(false);
+    setOnclick(false);
   }
 };
 
@@ -46,18 +46,13 @@ const toggleThemeChange = () => {
         <Header/>
         <hr/> 
         <div className='wrapper'>
-        <input
-                      type='checkbox'
-                      defaultChecked={checked}
-                      onChange={() => toggleThemeChange()}
-                />
               <div className="imgController">
                 <Img fluid={data.placeholderImage.childImageSharp.fluid}
                   className="imgStyle"
                   alt="marcoscampot"
                 />
               </div>
-            <p>Gracias por visitar mi CV y como dice arriba: Bienvenido...</p>
+            <p>Gracias por visitar mi pagina personal y como dice arriba: Bienvenido...</p>
               <p className="textMain">Soy Marcos Campot, estudiante de sistemas, actualmente estoy interesado en desarrollarme profesionalmente en COBOL.
               Mas abajo te dejo algunas capturas de proyectos hechos en React y mis codigos en <a href ="#cobolCodigos">COBOL</a>.</p>
         </div>
@@ -67,7 +62,6 @@ const toggleThemeChange = () => {
           <div className='footer' >
             <a href= "https://www.linkedin.com/in/marcos-campot-687152216/" target="blank" > <FontAwesomeIcon icon={faLinkedin} /> </a>
             <a href= "https://github.com/Dyehuthy-mes" target="blank" > <FontAwesomeIcon icon={faGithub} /> </a>
-            <div className='footer__text'> AppWeb desarrollada con Gatsby </div>
           </div>
       </div>
       

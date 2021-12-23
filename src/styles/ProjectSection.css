@@ -8,11 +8,12 @@
     cursor: default;
     background-color: var( --secondary-color);
     padding-bottom: 25px;
+    color:var(--text-color);
 }
 
 .projectSectionLinks{
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     font-size: 2em;
 }
 
