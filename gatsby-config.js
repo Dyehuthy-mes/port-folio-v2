@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/Dyehuthy-mes/port-folio-v2",
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "PortFoliov2",
