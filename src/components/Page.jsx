@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import {useStaticQuery, graphql} from 'gatsby'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
-import { useEffect, useState } from 'react';
+
 
 export default Page
 
@@ -22,24 +22,6 @@ function Page({children}) {
         }
       }
     `)
-
-    const [checked, setOnclick] = useState(localStorage.getItem("theme") === "dark" ? true : false);
-
-  useEffect(() => {
-    document
-    .getElementsByTagName("HTML")[0]
-    .setAttribute("data-theme", localStorage.getItem("theme"));
-}, [checked]);
-
-const toggleThemeChange = () => {
-  if (checked === false) {
-    localStorage.setItem("theme", "dark");
-    setOnclick(true);
-  } else {
-    localStorage.setItem("theme", "light");
-    setOnclick(false);
-  }
-};
 
     return (
       <div className='main' id='top'>
