@@ -53,8 +53,8 @@ const toggleThemeChange = () => {
                 />
               </div>
             <p>Gracias por visitar mi pagina personal y como dice arriba: Bienvenido...</p>
-              <p className="textMain">Soy Marcos Campot, estudiante de sistemas, actualmente estoy interesado en desarrollarme profesionalmente en COBOL.
-              Mas abajo te dejo algunas capturas de proyectos hechos en React y mis codigos en <a href ="#cobolCodigos">COBOL</a>.</p>
+              <p className="textMain">Soy Marcos Campot, estudiante de sistemas, hace 1 año que incursione en programación estudiando de forma autodidacta, empezando por Python, luego pase a JavaScript orientándome a desarrollo web
+               específicamente como frontend y actualmente estoy estudiando COBOL y es en lo que tengo mas interés en desarrollarme profesionalmente. A continuacion te dejo algo de mis proyectos con React y codigos en  <a href ="#cobolCodigos">COBOL</a>.</p>
         </div>
         <hr/> 
             <ProjectsSection/>
