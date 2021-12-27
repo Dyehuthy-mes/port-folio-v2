@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/Header.css'
-/* import { useEffect, useState } from 'react'; */
+import { useEffect, useState } from 'react';
 
 function Header() {
 
- /*    const [checked, setOnclick] = useState(localStorage.getItem("theme") === "dark" ? true : false);
+    const [checked, setOnclick] = useState(localStorage.getItem("theme") === "dark" ? true : false);
 
     useEffect(() => {
       document
@@ -20,15 +20,15 @@ function Header() {
       localStorage.setItem("theme", "light");
       setOnclick(false);
     }
-  }; */
+  };
 
     return (
         <div className="header__title">
-{/*              <button
+             <button
                className='changeTheme'           
                defaultChecked={checked}
                onClick={() => toggleThemeChange()}
-             /> */}
+             />
             <h1>ברוך הבא</h1> 
         </div>
     )
